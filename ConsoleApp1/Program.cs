@@ -14,19 +14,19 @@ else if (input == "right")
 //Step 3: Introduce player to hallway with a door with a star or a door with a moon
 Console.WriteLine("You continue down the hallway wearily holding your weapon. You pass by many portraits of lords and ladies. You approach two doors at the end of the hall, one with a [star] crest and the other with a [moon] crest. Which door do you dare to open?");
 
-string door = Console.ReadLine();
+string input2 = Console.ReadLine();
 //Step 4: Check player's response, star or moon door
-if (door == "star")
+if (input2 == "star")
 {
     Console.WriteLine("You gain the courage to open the door with the star crest. *creaaaaak* There is a skeleton wielding a sword!");
 }
-    if (door == "star")
+    if (input2 == "star")
     {
     Console.WriteLine("You attack the skeleton.");
     }
-else if (door == "moon")
+else if (input2 == "moon")
 {
     Console.WriteLine("You gain the courage to open the door with the moon crest.*creaaaaak* This room seems to be safe. You may continue through to the next hallway.");
 }
 //Step 5: 
-
+Console.WriteLine("Hi buddy!");
